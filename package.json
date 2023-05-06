@@ -1,0 +1,34 @@
+{
+    "name": "react-cloudflare-pages-wrapper",
+    "version": "0.9.4",
+    "description": "A React DOM Server render wrapper for Cloudflare Pages. That's it.",
+    "main": "dist/index.js",
+    "scripts": {
+        "build": "npx tsc"
+    },
+    "repository": {
+        "type": "git",
+        "url": "git+https://github.com/nora-soderlund/react-cloudflare-pages-wrapper.git"
+    },
+    "keywords": [
+        "cloudflare",
+        "pages",
+        "functions",
+        "react",
+        "dom"
+    ],
+    "author": "Nora Söderlund",
+    "license": "AGPL-3.0",
+    "bugs": {
+        "url": "https://github.com/nora-soderlund/react-cloudflare-pages-wrapper/issues"
+    },
+    "homepage": "https://github.com/nora-soderlund/react-cloudflare-pages-wrapper#readme",
+    "devDependencies": {
+        "@cloudflare/workers-types": "^4.20230419.0",
+        "@types/react-dom": "^18.2.4",
+        "typescript": "^5.0.4"
+    },
+    "dependencies": {
+        "react-dom": "^18.2.0"
+    }
+}
